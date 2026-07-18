@@ -1,0 +1,10 @@
+token : "lip_XXXXXXXXXXXXXXXXXXXX"
+url: "https://lichess.org"
+engine:
+  dir: "./engines/Stockfish"
+  name: "stockfish-windows-x86-64-avx2.exe"
+  protocol: "uci"
+  ponder: false
+  time_management:
+    move_overhead: 2000
+book : "gm2001.bin"
