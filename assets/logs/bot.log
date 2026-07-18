@@ -1,0 +1,28 @@
+2026-07-18 11:44:26 [INFO] Connecting to Lichess API event stream...
+2026-07-18 11:44:26 [ERROR] CRITICAL CONNECTION ERROR: No connection adapters were found for 'httsps://lichess.org/api/stream/event'
+2026-07-18 11:44:36 [INFO] Connecting to Lichess API event stream...
+2026-07-18 11:44:36 [ERROR] CRITICAL CONNECTION ERROR: No connection adapters were found for 'httsps://lichess.org/api/stream/event'
+2026-07-18 11:44:46 [INFO] Connecting to Lichess API event stream...
+2026-07-18 11:44:46 [ERROR] CRITICAL CONNECTION ERROR: No connection adapters were found for 'httsps://lichess.org/api/stream/event'
+2026-07-18 11:44:50 [INFO] Connecting to Lichess API event stream...
+2026-07-18 11:44:52 [INFO] Server responded with Status Code: 200
+2026-07-18 11:44:52 [INFO] Spawning independent background thread for game: 3ENiYUdI
+2026-07-18 11:44:52 [INFO] Spawning independent background thread for game: NK2Z3qqF
+2026-07-18 11:44:59 [INFO] Game session active: NK2Z3qqF
+2026-07-18 11:44:59 [INFO] Game session active: 3ENiYUdI
+2026-07-18 11:45:02 [ERROR] Error in game loop 3ENiYUdI: expected 8 rows in position part of fen: 'startpos'
+2026-07-18 11:45:02 [INFO] Game session closed cleanly: 3ENiYUdI
+2026-07-18 11:45:02 [ERROR] Error in game loop NK2Z3qqF: expected 8 rows in position part of fen: 'startpos'
+2026-07-18 11:45:02 [INFO] Game session closed cleanly: NK2Z3qqF
+2026-07-18 11:45:18 [INFO] Declined challenge epFRYELQ (Speed: blitz, Variant: crazyhouse)
+2026-07-18 11:45:41 [INFO] Accepted BLITZ challenge: iwE0MxBe
+2026-07-18 11:45:41 [INFO] Spawning independent background thread for game: iwE0MxBe
+2026-07-18 11:45:55 [INFO] Game session active: iwE0MxBe
+2026-07-18 11:46:37 [ERROR] Error in game loop iwE0MxBe: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-07-18 11:46:38 [INFO] Game session closed cleanly: iwE0MxBe
+2026-07-18 11:48:28 [ERROR] CRITICAL CONNECTION ERROR: ("Connection broken: ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)", ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None))
+2026-07-18 11:48:40 [INFO] Connecting to Lichess API event stream...
+2026-07-18 11:48:44 [INFO] Server responded with Status Code: 200
+2026-07-18 11:48:44 [INFO] Spawning independent background thread for game: NK2Z3qqF
+2026-07-18 11:48:51 [ERROR] Error in game loop NK2Z3qqF: engine process died unexpectedly (exit code: 3221225786)
+2026-07-18 11:48:51 [INFO] Game session closed cleanly: NK2Z3qqF
