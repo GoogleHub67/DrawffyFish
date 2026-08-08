@@ -1,0 +1,29 @@
+name: Code Quality Verification Loop
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  lint-and-validate:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Source Tree Codebase
+      uses: actions/checkout@v4
+
+    - name: Set Up Python Virtual Layer Environment
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+
+    - name: Install Linting Tools and Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install flake8 pytest python-chess pyyaml requests
+
+    - name: Code Syntax Audits (Flake8 Check Loop)
+      run: |
+        # Stop build if there are Python syntax errors or undefined names
+        flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
