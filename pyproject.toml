@@ -15,23 +15,17 @@ classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
-]
+ ]
 dependencies = [
     "chess==1.10.0",
     "requests",
 ]
 
 [project.scripts]
-drawffyfish-bot = "drawffyfish.bot:main"  # Runs the "main()" function inside drawffyfish/bot.py
+drawffyfish-bot = "drawffyfish.bot:main"
 
 [tool.setuptools.include-package-data]
 keep-default-manifest = true
 
-# Update your script path since there is no inner "drawffyfish" folder:
-
 [tool.setuptools.packages.find]
 where = ["src"]
-
-[project.scripts]
-drawffyfish-bot = "drawffyfish.bot:main"
-
