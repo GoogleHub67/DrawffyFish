@@ -66,7 +66,7 @@ ENGINE_PATH = os.path.join(BASE_DIR, config["engine"]["dir"].lstrip("./"), confi
 HEADERS = {
     "Authorization": f"Bearer {LICHESS_TOKEN}", 
     "Content-Type": "application/json",
-    "User-Agent": "DrawffyFish/1.0.0 (Contact: World_Champppppppp)"
+    "User-Agent": "DrawffyFish/1.0.0 (Contact: World_Champppppppppp)"
 }
 
 def start_event_stream():
