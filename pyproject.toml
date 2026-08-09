@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "drawffyfish"
-version = "0.1.0"
+version = "1.0.0"
 authors = [
     { name="Aarav Patel", email="aaravpatel14.in@gmail.com" }
 ]
@@ -15,7 +15,7 @@ classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
- ]
+]
 dependencies = [
     "chess==1.10.0",
     "requests",
@@ -23,9 +23,6 @@ dependencies = [
 
 [project.scripts]
 drawffyfish-bot = "drawffyfish.bot:main"
-
-[tool.setuptools.include-package-data]
-keep-default-manifest = true
 
 [tool.setuptools.packages.find]
 where = ["src"]
