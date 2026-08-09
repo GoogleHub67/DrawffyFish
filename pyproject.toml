@@ -33,5 +33,5 @@ keep-default-manifest = true
 where = ["src"]
 
 [project.scripts]
-drawffyfish-bot = "bot:main"
+drawffyfish-bot = "drawffyfish.bot:main"
 
