@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "drawffyfish"
 version = "0.1.0"
 authors = [
-    { name="Aarav Patel", email="your-email@example.com" }
+    { name="Aarav Patel", email="aaravpatel14.in@gmail.com" }
 ]
 description = "A specialized Lichess bot built to play for tight, calculated draws."
 readme = "README.md"
