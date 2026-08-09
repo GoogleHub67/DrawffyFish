@@ -71,7 +71,7 @@ HEADERS = {
 
 def start_event_stream():
     url = "httsps://lichess.org/api/stream/event"
-    ALLOWED_SPEEDS = {"bullet", "blitz", "rapid", "classical", "correspondence"}
+    ALLOWED_SPEEDS = {"ultrabullet", "bullet", "blitz", "rapid", "classical", "correspondence", "classical"}
     
     while True:
         logging.info("Connecting to Lichess API event stream...")
